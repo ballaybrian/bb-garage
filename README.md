@@ -1,23 +1,20 @@
 # BB Garage
 
-Webapp simple pour créer des fiches d'entretien véhicule et exporter un PDF propre.
+Package complet prêt pour GitHub Pages.
 
-## Mise en ligne sur GitHub Pages
+## Fonctions incluses
+- Génération du vrai PDF
+- Sauvegarde automatique des interventions dans le stockage local
+- Historique réel avec ouverture / suppression
+- Version installable sur téléphone (PWA)
 
-1. Crée un dépôt GitHub nommé `bb-garage`
-2. Envoie tous les fichiers de ce dossier dans le dépôt
-3. Va dans **Settings > Pages**
-4. Choisis **Deploy from a branch**
-5. Sélectionne la branche **main** et le dossier **/root**
+## Mise en ligne
+1. Dézippe le dossier
+2. Mets tout le contenu dans ton dépôt GitHub
+3. Vérifie que le fichier principal s'appelle `index.html`
+4. Va dans Settings > Pages
+5. Choisis `main` puis `/root`
 6. Sauvegarde
 
-L'application sera ensuite disponible à l'adresse :
-
-`https://VOTRE-PSEUDO.github.io/bb-garage/`
-
-## Fichiers inclus
-
-- `index.html` : application principale
-- `manifest.json` : installation comme application
-- `service-worker.js` : cache hors ligne
-- `logo-bb-garage.png` : logo BB Garage
+L'application sera disponible sur :
+`https://TONPSEUDO.github.io/NOM-DU-DEPOT/`
